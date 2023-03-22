@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    
+
+
+}
+#texto-logos{
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.mensajeria{
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+.insta{
+    margin-top:2px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#copyright{
+    margin-left: 1100px;
+}
+.otrasPagina{
+    display: flex;
+    margin-left: 1000px;
+}
+.nav-buttonFordVolks2:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 57, 245);
+}
+.nav-buttonFordVolks2{
+    margin-left: 20px;
+    font-size:15px;
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+}
+.insta{
+    margin-right: 10px;
+}
+#content-footer{
+    display: flex;
+}
+.footer{
+    margin-top: 20px;
+    background-color: white;
+    color:black ;
+    padding: 2px;
+}
+.lista-cartas{
+    display: flex;
+    margin-left: 40px;
+}
+.carta-clase{
+    margin-left: 37px;
+}
+.nav-buttonToyota:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(109, 3, 3);
+}
+.nav-buttonToyota{
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+}
+
+.card-title:hover{
+    color: rgb(63, 107, 252);
+}
+
+#texto{
+    text-align: center;
+}
+.nav-buttonFordVolks:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 57, 245);
+}
+.nav-buttonFordVolks{
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+}
+.card{
+    margin-left: 10px;
+}
+.boton-deCartaSubmitToyota:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 38, 38);
+    color: white;
+}
+.boton-deCartaSubmitToyota{
+    border: none;
+    color: white;
+    background-color:transparent;
+    
+}
+
+.nav-button:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(116, 117, 121);
+}
+.nav-button{
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+.body{
+    background-color: black;
+    color: white;
+}
+
+.carousel-image{
+    margin-left: 200px;
+}
+.nav{
+    margin-top: -40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+.card-body{
+    background-color: rgb(54, 54, 54);
+}
+.card{
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+.cartas-marcas{
+    display: flex;
+    margin-left: 100px;
+}
+#texto-carousel{
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel-control-prev{
+    border-color:black;
+    color: black;
+}
+.carousel-control-prev-icon{
+    color: black;
+}
+#texto-cartita1{
+    margin-left: 100px;
+}
+#texto-cartita{
+    margin-left: 700px;
+}
+.titulos-cartas{
+    display: flex;
+}
+.cartas-marcas{
+    margin-left:40px ;
+}
+#titulo{
+    margin-left: 30px;
+    color:white;
+}
+header{
+    background-color: white;
+    padding: 5px;
+}.nav  .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+}
+.card{
+    background-color: rgb(54, 54, 54);
+}
+.cartas{
+    display: flex;
+}
+.logo{
+ width: 5%;
+ margin-top: 10px;
+ margin-left: 10px;   
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADT autos</title>
+    <link rel="stylesheet"href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="body">
+    <header>
+      <h2>aaaa</h2>
+      <img class="logo" src="imagenes/Logo ADT.png">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <form method="get" action="">
+                <button class="nav-button" type="submit">Clase Mercedes-benz</button>
+              </form>
+            </li>
+            <li class="nav-item">
+              <form method="get" action="">
+                <button class="nav-button" type="submit">Clase Lexus</button>
+              </form>
+            </li>
+            <li class="nav-item">
+              <form method="get" action="">
+                <button class="nav-button" type="submit">Clase Ford</button>
+              </form>
+              </li>
+              <li class="nav-item">
+                <form method="get" action="">
+                  <button class="nav-button" type="submit">Clase Toyota</button>
+                </form>
+              </li>
+          </ul>
+    </header>
+   
+    <h2 id="texto">Marcas con las cuales trabajamos</h2>
+    <hr>
+    <div class="titulos-cartas">
+    <h3 id="texto-cartita1">Gama media</h3>
+    <h3 id="texto-cartita">Gama alta</h3>
+  </div>
+    <section class="cartas">
+    
+    <div class="cartas-marcas">
+      <div class="card" style="width: 18rem;">
+        <img src="https://assets.turbologo.com/blog/es/2019/10/19133004/ford-logo-illustration-958x575.jpg" class="card-img-top" alt="100%">
+        <div class="card-body">
+          <h5 class="card-title">Ford</h5>
+          <p class="card-text">compañia estadounidense de produccion de vehiculos</p>
+          <a href="https://www.ford.com.ar/" class="btn btn-primary"> ir a Ford</a>
+        </div>
+      </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Logo_Toyota.svg/2560px-Logo_Toyota.svg.png" class="card-img-top" height="170">
+        <div class="card-body">
+          <h5 class="card-title">Toyota</h5>
+          <p class="card-text">compañia japonesa de produccion de vehiculos</p>
+          <a href="https://www.Toyota.com" class="btn btn-primary"> ir a Toyota</a>
+        </div>
+      </div>
+      </div>
+      <div class="cartas-marcas">
+        <div class="card" style="width: 18rem;">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Lexus_division_emblem.svg/1200px-Lexus_division_emblem.svg.png" class="card-img-top" alt="100%">
+          <div class="card-body">
+            <h5 class="card-title">Lexus</h5>
+            <p class="card-text">compañia japonesa de produccion de vehiculos</p>
+            <a href="https://www.lexus.com.ar/es.html" class="btn btn-primary"> ir a Lexus</a>
+          </div>
+        </div>
+      <div class="card" style="width: 18rem;">
+          <img src="data:image/png;base64,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" class="card-img-top" height="170">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes Benz</h5>
+            <p class="card-text">compañia alemana de produccion de vehiculos</p>
+            <a href="https://www.mercedes-benz.com.ar/passengercars.html" class="btn btn-primary"> ir a Mercedes Benz</a>
+          </div>
+        </div>
+        </div>
+        </section>
+        <section>
+          <hr>
+          <div class="lista-cartas">
+          <div class="card mb-3" style="max-width: 590px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://media.ed.edmunds-media.com/ford/expedition/2022/oem/2022_ford_expedition_4dr-suv_limited_fq_oem_1_1280.jpg" class="img-fluid rounded-start" width="100%">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Seccion Ford</h5>
+                  <p class="card-text">Esta seccion aparecen los distintos tipos disponibles de autos con su informacion.</p>
+                  <form method="get" action=""><button class="boton-deCartaSubmitToyota" type="submit">Ir a la seccion ford</button></form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carta-clase">
+          <div class="card mb-3" style="max-width: 585px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://vehiclephotos.b-cdn.net/photos/vehicles/242129/4126667-large.jpg" class="img-fluid rounded-start" width="100%">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Seccion Toyota</h5>
+                  <p class="card-text">Esta seccion aparecen los distintos tipos disponibles de autos con su informacion.</p>
+                  <form method="get" action=""><button class="boton-deCartaSubmitToyota" type="submit">Ir a la seccion Toyota</button></form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="lista-cartas">
+          <div class="card mb-3" style="max-width: 590px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://cdn.motor1.com/images/mgl/3yAxp/s3/lanzamiento-lexus-rc-f-y-rc-f-track-edition.jpg" class="img-fluid rounded-start" width="100%">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Seccion Lexus</h5>
+                  <p class="card-text">Esta seccion aparecen los distintos tipos disponibles de autos con su informacion.</p>
+                  <form method="get" action=""><button class="boton-deCartaSubmitToyota" type="submit">Ir a la seccion Lexus</button></form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carta-clase">
+          <div class="card mb-3" style="max-width: 585px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://cdn.motor1.com/images/mgl/QzkK8/s1/lanzamiento-mercedes-benz-g-500-2020.jpg" class="img-fluid rounded-start" width="100%">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Seccion Mercedes-benz</h5>
+                  <p class="card-text">Esta seccion aparecen los distintos tipos disponibles de autos con su informacion.</p>
+                  <form method="get" action=""><button class="boton-deCartaSubmitToyota" type="submit">Ir a la seccion Mercedes-benz</button></form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </section>
+        <hr>
+        <h2 id="texto-carousel">Estos son algunos de los autos que se van a encontrar</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="carousel-image"src="https://static.motor.es/fotos-noticias/2023/01/ford-f-250-megaraptor-7-202392520-1674231365_1.jpg" width="900" height="500">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Ford F-250 (Mega Raptor)</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="carousel-image" src="https://es.digitaltrends.com/wp-content/uploads/2022/07/2023_Toyota-Crown_Platinum_014H-4-1500x900-1.jpg?p=1" width="900" height="500">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Toyota Crown</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="carousel-image" src="https://mercedes-benz.com.py/wp-content/uploads/2021/11/Mercedes-Benz-GLE-Coupe-Faldon-Trasero-scaled.jpg" width="900" height="500">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Mercedes Benz GLA</h3>
+              </div>
+            </div>
+          <div class="carousel-item">
+            <img class="carousel-image" src="https://conduciendo.com/wp-content/uploads/Lexus-RC-F-Track-Edition-040321-02.jpg" width="900" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Lexus RC-F (track edition)</h3>
+            </div>
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+          <footer class="footer">
+            <div class="otrasPagina">
+            <h5>Paginas relacionadas:</h5>
+            <form method="get" action="actualizacionxd/act1.html"><button class="nav-buttonFordVolks2" type="submit">Ir a pagina de tanques</button></form>
+          </div>
+            <h5 id="texto-logos">Seguinos en las redes</h5>
+            <div id="content-footer">
+            <a href=""><img src="imagenes/iconmonstr-instagram-15.svg" class="insta" ></a>
+            <a href=""><img src="imagenes/iconmonstr-whatsapp-5.svg" class="mensajeria"></a>
+            <h5 id="copyright">copyright 2023 ADT</h5>
+          </div>
+
+          </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
